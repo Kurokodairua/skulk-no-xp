@@ -50,8 +50,8 @@ public class NoXPDropsPlugin extends JavaPlugin implements Listener {
                 }
             }
         }
-        else if (command.getName().equalsIgnoreCase("ping")) {
-            sender.sendMessage("pong"); // :)
+        else if (command.getName().equalsIgnoreCase("skulkinfo")) {
+            sender.sendMessage("geht"); // :)
         }
         return false;
     }
