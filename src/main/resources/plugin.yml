@@ -1,0 +1,4 @@
+name: NoXPDropsPlugin
+version: '${project.version}'
+main: tsa.noxpdropsplugin.NoXPDropsPlugin
+api-version: 1.20
