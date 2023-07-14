@@ -20,11 +20,12 @@ public class NoXPDropsPlugin extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
+        getLogger().info("NoXPDropsPlugin wurde aktiviert.");
     }
 
     @Override
     public void onDisable() {
-        // Plugin deaktivieren
+        getLogger().info("NoXPDropsPlugin wurde deaktiviert.");
     }
 
     @EventHandler
