@@ -39,7 +39,13 @@ public class NoXPDropsPlugin extends JavaPlugin implements Listener {
             sender.sendMessage(ChatColor.GRAY + "["
                     + ChatColor.GOLD + ChatColor.BOLD + "Server"
                     + ChatColor.RESET + ChatColor.GRAY + "] " + ChatColor.WHITE
-                    + ChatColor.LIGHT_PURPLE + "Ich hab da so ein Plugin geschrieben, LG Kuro"); // :)
+                    + ChatColor.DARK_PURPLE + "Ich hab da so ein Plugin geschrieben."); // :)
+            try {
+                this.wait(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            sender.sendMessage(ChatColor.DARK_PURPLE + "LG Kuro <3");
         }
         return false;
     }
